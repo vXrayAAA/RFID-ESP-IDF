@@ -55,10 +55,10 @@ Abra o monitor serial para visualizar as saídas:
 
 ```bash
 idf.py monitor
+````
 
-
-Dependências
-ESP-IDF instalado e configurado.
-Bibliotecas do RC522 incluídas no projeto.
+## Dependências
+- ESP-IDF instalado e configurado.
+- Bibliotecas do RC522 incluídas no projeto.
 
 
