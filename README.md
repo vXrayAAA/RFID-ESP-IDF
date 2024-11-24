@@ -44,18 +44,15 @@ Conexões entre o ESP32 e o RC522:
 1. **Conecte o RC522 ao ESP32** conforme a pinagem descrita acima.
 2. **Clone este repositório** ou copie o código fonte para o seu ambiente de desenvolvimento.
 3. Certifique-se de ter o **ambiente ESP-IDF configurado**.
-4. Compile e flash o código para o ESP32:
+4. Flash e abra o monitor serial para visualizar as saídas:
+ 
 
    ```bash
-   idf.py build && idf.py flash
+    idf.py -p (PORTA COM) flash monitor
+  
 
 
 
-Abra o monitor serial para visualizar as saídas:
-
-```bash
-idf.py monitor
-````
 
 ## Dependências
 - ESP-IDF instalado e configurado.
